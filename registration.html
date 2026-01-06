@@ -4,20 +4,36 @@
 <title>
 WELCOME TO MVN UNIVERSITY Registration Form
 </title>
+<style>
+input{
+margin-bottom:15px;
+}
+p1{
+span
+}
+</style>
+<script>
+function first(){
+alert("Your application is recorded ");
+}
+</script>
 </head>
-<body style=background-color:grey;spacing="10px";padding:"10px">
-<h3> Student Registration Form </h3>
+<body style="background-color:grey; color:black 50px;font-weight:bold;">
+<h3 style="color:green";> Student Registration Form </h3>
 <p> Make sure to fill your details clearly in the form</p>
+<div style="border:10px solid green; margin:50px; padding:20px; width:400px"> 
 <form>
 Name:<input type="text" name="t1" sytle="margin-bottom:10px;><br>
-
 Surname:<input type= "text" id="t2"><br>
+Nationality:<input type= "text" id="t2"><br>
+Contact:<input type= "text" id="t2"><br>
 
 Preferred Year:<input type="text"><br>
-
+Enter Your Email:<input type="email" name="e1" ><br>
 Gender:<input type="radio" name="b1" value="b1">Male
 <input type="radio" id="b1" name="b1">Female<br>
-
+Course Type:<input type="radio" name="b2" value="b1">Full time
+<input type="radio" id="b2" name="b2">Part time<br>
 Course:
 <select>
 <option> BCA </option>
@@ -25,10 +41,15 @@ Course:
 <option> BBL </option>
 <option> LLB </option>
 </select><br>
-Girlfriend:
-<input type ="radio" name="b2" value="Yes">Yes
-<input type="radio" name="b2" value="No">No<br>
-<input type="button" id="b3" value="Submit">
+       Girlfriend:
+<input type ="radio" name="b3" value="Yes">Yes
+<input type="radio" name="b3" value="No">No<br>
+<label for="subscribe"> Completed</label>
+<input type="checkbox" id= "c1" name=""I do agree to the terms and conditions" value="Yes"><br>
+<input type="button" id="b3" value="Submit" onclick=(first())>
 </form>
+</div>
+<p1 span style="border:3px solid red"> NB: Your enrollment fee can not be refunded </p1>
+<p style="color:green"> We wish you good luck </p>
 </body>
 </html>
